@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aether-ml.vercel.app/sitemap.xml
