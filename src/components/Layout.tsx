@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, CheckCircle2, Compass, Library, BookOpen, GraduationCap } from 'lucide-react';
 import { modules, curriculumData } from '../data/curriculumData';
+import AIAssistant from './AIAssistant';
 
 interface LayoutProps {
   activePage: 'dashboard' | 'topic' | 'library';
@@ -149,6 +150,7 @@ export default function Layout({ activePage, activeTopicId, completedTopics, onN
           </div>
         </main>
       </div>
+      <AIAssistant />
     </div>
   );
 }
